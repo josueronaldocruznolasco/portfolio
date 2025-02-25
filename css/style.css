@@ -1,0 +1,124 @@
+.gradient-background {
+    background: linear-gradient(300deg, #40e0d0, blueviolet);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*<------------profile section--------->*/
+span {
+    text-decoration: underline;
+}
+
+h1 {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+h2 {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+.tourney-h1-title {
+    font-family: "Tourney", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: 3.5;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.title-row {
+    height: 100vh;
+}
+
+.laptop-icon {
+    height: 100vh;
+    position: relative;
+
+    z-index: 0;
+}
+
+.code-symbol {
+    display: inline;
+    position: relative;
+    right: 8.5rem;
+    height: 6rem;
+    z-index: 1;
+}
+
+.code-slash-symbol {
+    display: inline;
+    position: relative;
+    left: 8.5rem;
+    height: 6rem;
+    z-index: 1;
+}
+
+.containerh {
+    display: inline-block;
+    position: relative;
+    bottom: 32rem;
+}
+
+.container-code-symbols {
+    display: inline-block;
+    position: relative;
+    bottom: 26rem;
+}
+
+/*<------------profile section--------->*/
+#profile {
+    margin-top: 7rem;
+}
+
+.profile-img {
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.intro {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+/*<---------------projects section----------->*/
+.agency,
+.mondrian,
+.tindog {
+    width: 100%;
+}
+
+/*<----------------skills section------------->*/
+.feature-icon {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 0.75rem;
+
+}
+
+.skills-p {
+    font-size: 1rem;
+}
+/*<---------------contact me section ------------->*/
+.btn {
+    font-size: 1.5rem;
+}
